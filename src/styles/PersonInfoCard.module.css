@@ -1,0 +1,82 @@
+.PersonInfoCard{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #000;
+    font-size: 32px;
+
+}
+
+.PersonInfoCard img {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.PersonInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+
+.PersonInfo button {
+    width: 200px;
+    height: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1035px) {
+    .PersonInfoCard img {
+        width: 500px;
+        height: 500px;
+        padding: 1px;
+    }
+    .PersonInfo{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 3px;
+        text-transform: uppercase;
+    }
+    .PersonInfo button{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .PersonInfoCard img {
+        width: 300px;
+        height: 300px;
+        padding: 1px;
+    }
+
+    .PersonInfoCard{
+        font-size: 24px;
+    }
+
+    .PersonInfo button{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .PersonInfoCard img {
+        width: 200px;
+        height: 200px;
+        padding: 1px;
+    }
+
+    .PersonInfoCard{
+        font-size: 18px;
+    }
+
+    .PersonInfo button{
+        margin: 0 auto;
+    }
+}

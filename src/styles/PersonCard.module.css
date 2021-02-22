@@ -1,0 +1,108 @@
+.PersonCard{
+    display:flex;
+    position: relative;
+    padding: 10px;
+    
+}
+
+.PersonCard img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid white;
+}
+
+.PersonCard h4 {
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 50%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(32, 29, 27, 0.9);
+
+}
+
+.PersonCard:hover .overlay{
+    opacity: 1;
+
+}
+
+@media screen and (max-width: 1495px) {
+    .PersonCard img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .PersonCard img {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1246px) {
+    .PersonCard img {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .PersonCard {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .PersonCard img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 547px) {
+    .PersonCard img {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 547px) {
+    .PersonCard img {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 325px) {
+    .PersonCard img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 248px) {
+    .PersonCard img {
+        width: 250px;
+        height: 250px;     
+    }
+
+    .PersonCard {
+        margin: 0 auto;
+    }
+}
